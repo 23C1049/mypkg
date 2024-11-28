@@ -1,0 +1,38 @@
+[0.988s] Invoking command in '/home/kotake/ros2_ws/src': PYTHONPATH=/home/kotake/ros2_ws/src/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/kotake/ros2_ws/src/build/mypkg/build install --record /home/kotake/ros2_ws/src/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
+[1.275s] running egg_info
+[1.275s] creating build/mypkg/mypkg.egg-info
+[1.276s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.276s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.276s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.277s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.277s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.294s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.337s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.338s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.339s] running build
+[1.339s] running build_py
+[1.339s] creating /home/kotake/ros2_ws/src/build/mypkg/build
+[1.339s] creating /home/kotake/ros2_ws/src/build/mypkg/build/lib
+[1.340s] creating /home/kotake/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.340s] copying mypkg/talker.py -> /home/kotake/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.340s] copying mypkg/__init__.py -> /home/kotake/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.341s] running install
+[1.344s] running install_lib
+[1.346s] creating /home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.346s] copying /home/kotake/ros2_ws/src/build/mypkg/build/lib/mypkg/talker.py -> /home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.347s] copying /home/kotake/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.348s] byte-compiling /home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.350s] byte-compiling /home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.350s] running install_data
+[1.350s] creating /home/kotake/ros2_ws/src/install/mypkg/share/ament_index
+[1.351s] creating /home/kotake/ros2_ws/src/install/mypkg/share/ament_index/resource_index
+[1.351s] creating /home/kotake/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.351s] copying resource/mypkg -> /home/kotake/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.351s] copying package.xml -> /home/kotake/ros2_ws/src/install/mypkg/share/mypkg
+[1.351s] running install_egg_info
+[1.354s] Copying build/mypkg/mypkg.egg-info to /home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.355s] running install_scripts
+[1.377s] Installing listener script to /home/kotake/ros2_ws/src/install/mypkg/lib/mypkg
+[1.377s] Installing talker script to /home/kotake/ros2_ws/src/install/mypkg/lib/mypkg
+[1.378s] writing list of installed files to '/home/kotake/ros2_ws/src/build/mypkg/install.log'
+[1.418s] Invoked command in '/home/kotake/ros2_ws/src' returned '0': PYTHONPATH=/home/kotake/ros2_ws/src/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kotake/ros2_ws/src/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/kotake/ros2_ws/src/build/mypkg/build install --record /home/kotake/ros2_ws/src/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
